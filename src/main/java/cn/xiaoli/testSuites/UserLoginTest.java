@@ -9,10 +9,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.time.Duration;
 
@@ -61,7 +58,6 @@ public class UserLoginTest {
         Assert.assertEquals(carMinePage.getToast__text(driver),"用户名或密码错误!");
     }
 
-
     @AfterMethod
     public void quit_page(){
         if (driver!=null){
@@ -69,13 +65,13 @@ public class UserLoginTest {
         }
     }
 
-    //    @Test
-    public void testLoginBaidu() throws InterruptedException {
-//        CarMinePage cm = PageFactory.initElements(driver, CarMinePage.class);
-//        cm.login("also","123456");
-//        System.out.println(driver);
-        BaiduPage baiduPage = PageFactory.initElements(driver, BaiduPage.class);
-//        Thread.sleep(2000);
-        baiduPage.login("11","22");
-    }
+//    //    @Test
+//    public void testLoginBaidu() throws InterruptedException {
+////        CarMinePage cm = PageFactory.initElements(driver, CarMinePage.class);
+////        cm.login("also","123456");
+////        System.out.println(driver);
+//        BaiduPage baiduPage = PageFactory.initElements(driver, BaiduPage.class);
+////        Thread.sleep(2000);
+//        baiduPage.login("11","22");
+//    }
 }
