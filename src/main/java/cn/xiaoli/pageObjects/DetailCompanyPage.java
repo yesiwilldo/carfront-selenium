@@ -15,7 +15,8 @@ public class DetailCompanyPage {
     @FindBy(xpath = "//span[@class=\"van-button__text\" and text()=\"发送\"]")
     WebElement comment_btn;
     //租车按钮
-    @FindBy(xpath = "//div[text()='别克 GL8 ']/button[@type=\"button\"]")
+//    @FindBy(xpath = "//div[text()='别克 GL8 ']/button[@type=\"button\"]")
+    @FindBy(xpath = "//button[@name=\"大众 桑塔纳\"]")
     WebElement car_btn;
     //非普通用户点击订单后的警告弹窗
     @FindBy(className = "van-dialog__message")

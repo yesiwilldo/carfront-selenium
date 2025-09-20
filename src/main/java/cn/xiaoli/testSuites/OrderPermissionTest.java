@@ -35,7 +35,7 @@ public class OrderPermissionTest {
         driver.get("http://localhost:8080/mine");
         homePage = PageFactory.initElements(driver, HomePage.class);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
         detailCompanyPage = PageFactory.initElements(driver, DetailCompanyPage.class);
         carMinePage=PageFactory.initElements(driver,CarMinePage.class);
