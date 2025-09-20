@@ -12,7 +12,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
-
+//使用数据驱动实现登录
 public class UserLoginDataTest {
     WebDriver driver;
     CarMinePage carMinePage;

@@ -1,8 +1,9 @@
 package cn.xiaoli.pageObjects;
 
+import lombok.Data;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
+@Data
 public class DetailCompanyPage {
     //分享按钮
     @FindBy(xpath = "//span[text()=\"分享\"]")
@@ -14,7 +15,10 @@ public class DetailCompanyPage {
     @FindBy(xpath = "//span[@class=\"van-button__text\" and text()=\"发送\"]")
     WebElement comment_btn;
     //租车按钮
-    @FindBy(xpath = "//div[text()='大众 桑塔纳3']/../button[@type=\"button\"]")
+    @FindBy(xpath = "//div[text()='别克 GL8 ']/button[@type=\"button\"]")
     WebElement car_btn;
+    //非普通用户点击订单后的警告弹窗
+    @FindBy(className = "van-dialog__message")
+    WebElement dialog__message;
 
 }
