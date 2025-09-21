@@ -3,9 +3,11 @@
 技术：Java + Selenium + TestNG，Page Object模式、数据驱动、Allure  
 ## 测试范围：
 ![image](img/模块.png)  
-### 登录功能模块  
-### 下订单功能模块：  
-![image](img/下单测试点.png)
+
+(1)登录功能模块  
+(2)下订单功能模块如下图所示：  
+    ![image](img/下单测试点.png)
+
 ## 运行
 testng.xml  
 批量执行测试用例  
