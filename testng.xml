@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="租赁" verbose="1">
+    <test name="登录模块">
+        <classes>
+            <class name="cn.xiaoli.testSuites.UserLoginDataTest"/>
+        </classes>
+    </test>
+    <test name="用户权限与下单模块">
+        <classes>
+            <class name="cn.xiaoli.testSuites.OrderPermissionTest"/>
+        </classes>
+    </test>
+    <test name="用户余额与支付模块">
+        <classes>
+            <class name="cn.xiaoli.testSuites.OrderPaymentTest"/>
+        </classes>
+    </test>
+</suite>

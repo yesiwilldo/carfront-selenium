@@ -1,0 +1,9 @@
+cn\xiaoli\testSuites\OrderPaymentTest.class
+cn\xiaoli\pageObjects\CarMinePage.class
+cn\xiaoli\testSuites\OrderPermissionTest.class
+cn\xiaoli\testSuites\UserLoginDataTest.class
+cn\xiaoli\pageObjects\OrderPage.class
+cn\xiaoli\pageObjects\HomePage.class
+cn\xiaoli\pageObjects\DetailCompanyPage.class
+cn\xiaoli\pageObjects\BaiduPage.class
+cn\xiaoli\testSuites\UserLoginTest.class

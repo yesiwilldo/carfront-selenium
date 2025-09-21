@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="租赁" duration-ms="99652" started-at="2025-09-21T15:20:39Z" finished-at="2025-09-21T15:22:18Z">
+    <groups>
+    </groups>
+    <test name="登录模块" duration-ms="32150" started-at="2025-09-21T15:20:39Z" finished-at="2025-09-21T15:21:11Z">
+      <class name="cn.xiaoli.testSuites.UserLoginDataTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:cn.xiaoli.testSuites.UserLoginDataTest@770c2e6b]" name="setup" is-config="true" duration-ms="3050" started-at="2025-09-21T23:20:39Z" finished-at="2025-09-21T23:20:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.xiaoli.testSuites.UserLoginDataTest@770c2e6b]" name="testLogin" duration-ms="3408" started-at="2025-09-21T23:20:42Z" data-provider="getLoginData" finished-at="2025-09-21T23:20:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[also]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[登陆成功!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="quit_page()[pri:0, instance:cn.xiaoli.testSuites.UserLoginDataTest@770c2e6b]" name="quit_page" is-config="true" duration-ms="689" started-at="2025-09-21T23:20:45Z" finished-at="2025-09-21T23:20:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit_page -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:cn.xiaoli.testSuites.UserLoginDataTest@770c2e6b]" name="setup" is-config="true" duration-ms="1928" started-at="2025-09-21T23:20:46Z" finished-at="2025-09-21T23:20:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.xiaoli.testSuites.UserLoginDataTest@770c2e6b]" name="testLogin" duration-ms="3394" started-at="2025-09-21T23:20:48Z" data-provider="getLoginData" finished-at="2025-09-21T23:20:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[also]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名或密码错误!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="quit_page()[pri:0, instance:cn.xiaoli.testSuites.UserLoginDataTest@770c2e6b]" name="quit_page" is-config="true" duration-ms="690" started-at="2025-09-21T23:20:51Z" finished-at="2025-09-21T23:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit_page -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:cn.xiaoli.testSuites.UserLoginDataTest@770c2e6b]" name="setup" is-config="true" duration-ms="1727" started-at="2025-09-21T23:20:52Z" finished-at="2025-09-21T23:20:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.xiaoli.testSuites.UserLoginDataTest@770c2e6b]" name="testLogin" duration-ms="3355" started-at="2025-09-21T23:20:54Z" data-provider="getLoginData" finished-at="2025-09-21T23:20:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[also]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名或密码错误!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="quit_page()[pri:0, instance:cn.xiaoli.testSuites.UserLoginDataTest@770c2e6b]" name="quit_page" is-config="true" duration-ms="683" started-at="2025-09-21T23:20:57Z" finished-at="2025-09-21T23:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit_page -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:cn.xiaoli.testSuites.UserLoginDataTest@770c2e6b]" name="setup" is-config="true" duration-ms="2346" started-at="2025-09-21T23:20:58Z" finished-at="2025-09-21T23:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.xiaoli.testSuites.UserLoginDataTest@770c2e6b]" name="testLogin" duration-ms="3328" started-at="2025-09-21T23:21:00Z" data-provider="getLoginData" finished-at="2025-09-21T23:21:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名或密码错误!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="quit_page()[pri:0, instance:cn.xiaoli.testSuites.UserLoginDataTest@770c2e6b]" name="quit_page" is-config="true" duration-ms="683" started-at="2025-09-21T23:21:03Z" finished-at="2025-09-21T23:21:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit_page -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:cn.xiaoli.testSuites.UserLoginDataTest@770c2e6b]" name="setup" is-config="true" duration-ms="2694" started-at="2025-09-21T23:21:04Z" finished-at="2025-09-21T23:21:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:cn.xiaoli.testSuites.UserLoginDataTest@770c2e6b]" name="testLogin" duration-ms="3423" started-at="2025-09-21T23:21:07Z" data-provider="getLoginData" finished-at="2025-09-21T23:21:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名或密码错误!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="quit_page()[pri:0, instance:cn.xiaoli.testSuites.UserLoginDataTest@770c2e6b]" name="quit_page" is-config="true" duration-ms="714" started-at="2025-09-21T23:21:10Z" finished-at="2025-09-21T23:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit_page -->
+      </class> <!-- cn.xiaoli.testSuites.UserLoginDataTest -->
+    </test> <!-- 登录模块 -->
+    <test name="用户权限与下单模块" duration-ms="23929" started-at="2025-09-21T15:21:11Z" finished-at="2025-09-21T15:21:35Z">
+      <class name="cn.xiaoli.testSuites.OrderPermissionTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:cn.xiaoli.testSuites.OrderPermissionTest@55040f2f]" name="setup" is-config="true" duration-ms="1221" started-at="2025-09-21T23:21:11Z" finished-at="2025-09-21T23:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC_A1_UnloggedUserTryToOrder()[pri:0, instance:cn.xiaoli.testSuites.OrderPermissionTest@55040f2f]" name="TC_A1_UnloggedUserTryToOrder" duration-ms="1111" started-at="2025-09-21T23:21:12Z" finished-at="2025-09-21T23:21:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_A1_UnloggedUserTryToOrder -->
+        <test-method status="PASS" signature="quit_page()[pri:0, instance:cn.xiaoli.testSuites.OrderPermissionTest@55040f2f]" name="quit_page" is-config="true" duration-ms="665" started-at="2025-09-21T23:21:13Z" finished-at="2025-09-21T23:21:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit_page -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:cn.xiaoli.testSuites.OrderPermissionTest@55040f2f]" name="setup" is-config="true" duration-ms="2580" started-at="2025-09-21T23:21:14Z" finished-at="2025-09-21T23:21:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC_A2_NormalUserTryToOrder()[pri:0, instance:cn.xiaoli.testSuites.OrderPermissionTest@55040f2f]" name="TC_A2_NormalUserTryToOrder" duration-ms="3955" started-at="2025-09-21T23:21:16Z" finished-at="2025-09-21T23:21:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_A2_NormalUserTryToOrder -->
+        <test-method status="PASS" signature="quit_page()[pri:0, instance:cn.xiaoli.testSuites.OrderPermissionTest@55040f2f]" name="quit_page" is-config="true" duration-ms="683" started-at="2025-09-21T23:21:20Z" finished-at="2025-09-21T23:21:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit_page -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:cn.xiaoli.testSuites.OrderPermissionTest@55040f2f]" name="setup" is-config="true" duration-ms="1949" started-at="2025-09-21T23:21:21Z" finished-at="2025-09-21T23:21:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC_A3_NonNormalUserTryToOrder()[pri:0, instance:cn.xiaoli.testSuites.OrderPermissionTest@55040f2f]" name="TC_A3_NonNormalUserTryToOrder" duration-ms="11066" started-at="2025-09-21T23:21:23Z" finished-at="2025-09-21T23:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_A3_NonNormalUserTryToOrder -->
+        <test-method status="PASS" signature="quit_page()[pri:0, instance:cn.xiaoli.testSuites.OrderPermissionTest@55040f2f]" name="quit_page" is-config="true" duration-ms="696" started-at="2025-09-21T23:21:34Z" finished-at="2025-09-21T23:21:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit_page -->
+      </class> <!-- cn.xiaoli.testSuites.OrderPermissionTest -->
+    </test> <!-- 用户权限与下单模块 -->
+    <test name="用户余额与支付模块" duration-ms="43531" started-at="2025-09-21T15:21:35Z" finished-at="2025-09-21T15:22:18Z">
+      <class name="cn.xiaoli.testSuites.OrderPaymentTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:cn.xiaoli.testSuites.OrderPaymentTest@4de5031f]" name="setup" is-config="true" duration-ms="2222" started-at="2025-09-21T23:21:35Z" finished-at="2025-09-21T23:21:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC_B1_SufficientBalanceOrderSuccess()[pri:0, instance:cn.xiaoli.testSuites.OrderPaymentTest@4de5031f]" name="TC_B1_SufficientBalanceOrderSuccess" duration-ms="9533" started-at="2025-09-21T23:21:37Z" finished-at="2025-09-21T23:21:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_B1_SufficientBalanceOrderSuccess -->
+        <test-method status="PASS" signature="quit_page()[pri:0, instance:cn.xiaoli.testSuites.OrderPaymentTest@4de5031f]" name="quit_page" is-config="true" duration-ms="697" started-at="2025-09-21T23:21:47Z" finished-at="2025-09-21T23:21:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit_page -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:cn.xiaoli.testSuites.OrderPaymentTest@4de5031f]" name="setup" is-config="true" duration-ms="2054" started-at="2025-09-21T23:21:47Z" finished-at="2025-09-21T23:21:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC_B2_ZeroBalanceOrderFail()[pri:0, instance:cn.xiaoli.testSuites.OrderPaymentTest@4de5031f]" name="TC_B2_ZeroBalanceOrderFail" duration-ms="13008" started-at="2025-09-21T23:21:49Z" finished-at="2025-09-21T23:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_B2_ZeroBalanceOrderFail -->
+        <test-method status="PASS" signature="quit_page()[pri:0, instance:cn.xiaoli.testSuites.OrderPaymentTest@4de5031f]" name="quit_page" is-config="true" duration-ms="714" started-at="2025-09-21T23:22:02Z" finished-at="2025-09-21T23:22:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit_page -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:cn.xiaoli.testSuites.OrderPaymentTest@4de5031f]" name="setup" is-config="true" duration-ms="2062" started-at="2025-09-21T23:22:03Z" finished-at="2025-09-21T23:22:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC_B3_InsufficientBalanceOrderFail()[pri:0, instance:cn.xiaoli.testSuites.OrderPaymentTest@4de5031f]" name="TC_B3_InsufficientBalanceOrderFail" duration-ms="12527" started-at="2025-09-21T23:22:05Z" finished-at="2025-09-21T23:22:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_B3_InsufficientBalanceOrderFail -->
+        <test-method status="PASS" signature="quit_page()[pri:0, instance:cn.xiaoli.testSuites.OrderPaymentTest@4de5031f]" name="quit_page" is-config="true" duration-ms="706" started-at="2025-09-21T23:22:18Z" finished-at="2025-09-21T23:22:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit_page -->
+      </class> <!-- cn.xiaoli.testSuites.OrderPaymentTest -->
+    </test> <!-- 用户余额与支付模块 -->
+  </suite> <!-- 租赁 -->
+</testng-results>

@@ -11,6 +11,8 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <!--TestNg Aullre Report使用-->
+        <aspectj.version>1.9.2</aspectj.version> <!--AspectJ是一个基于Java语言的AOP框架-->
     </properties>
 
     <dependencies>
@@ -31,7 +33,7 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>7.4.0</version>
+            <version>6.10</version>
         </dependency>
 
         <dependency>
@@ -40,6 +42,54 @@
             <version>1.18.4</version>
         </dependency>
 
+        <!--Allure报告依赖包-->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>2.13.0</version>
+        </dependency>
+        <!--Allure报告生成插件依赖包-->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectj.version}</version>
+        </dependency>
 
     </dependencies>
+
+    <!--构建allure的插件，AOP拦截测试结果-->
+    <build>
+        <plugins>
+            <!--Allure报告构建生成-->
+            <plugin>
+                <!--                maven-surefire-plugin 配合testng/junit执行测试用例的maven插件-->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.1</version>
+                <configuration>
+                    <argLine>
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                    </argLine>
+                    <!--生成allure-result的目录-->
+                    <systemProperties>
+                        <!--配置allure结果存储路径.${project.build.directory}/allure-results表示target目录-->
+                        <property>
+                            <name>allure.results.directory</name>
+                            <value>${project.build.directory}/allure-results</value>
+                        </property>
+                    </systemProperties>
+                    <!--测试失败后，是否忽略并继续测试-->
+                    <testFailureIgnore>true</testFailureIgnore>
+                    <argLine>
+                        -Dfile.encoding=UTF-8
+                    </argLine>
+                    <suiteXmlFiles>
+                        <!--该文件位于工程根目录时，直接填写名字，其它位置要加上路径-->
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
