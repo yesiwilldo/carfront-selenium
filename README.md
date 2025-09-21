@@ -5,7 +5,7 @@
 img\模块.png
 登录功能模块
 下订单功能模块：
-img\下单测试点.png
+![image]（img\下单测试点.png）
 运行
 testng.xml
 批量执行测试用例
